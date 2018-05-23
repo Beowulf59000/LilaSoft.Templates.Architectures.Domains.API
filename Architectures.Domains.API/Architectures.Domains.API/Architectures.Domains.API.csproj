@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>LilaSoft.Architectures.Domains.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="7.5.2" />
+    <PackageReference Include="LilaSoft.Architectures.Domains.Domain" Version="1.0.0" />
+    <PackageReference Include="LilaSoft.Architectures.Domains.Infrastructure" Version="1.0.0" />
+    <PackageReference Include="LilaSoft.Patterns.EventBus.EntityFrameworkIntegrationEventLog" Version="1.0.0" />
+    <PackageReference Include="LilaSoft.Patterns.EventBus.EventBus" Version="1.0.0" />
+    <PackageReference Include="MediatR" Version="4.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="2.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="2.4.0" />
+  </ItemGroup>
+
+</Project>
